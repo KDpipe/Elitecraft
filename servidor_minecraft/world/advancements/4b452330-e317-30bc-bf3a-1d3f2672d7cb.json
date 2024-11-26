@@ -7,11 +7,16 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:bamboo_jungle": "2024-11-26 23:09:47 +0000",
       "minecraft:beach": "2024-11-26 22:33:44 +0000",
+      "minecraft:mangrove_swamp": "2024-11-26 23:09:54 +0000",
+      "minecraft:sparse_jungle": "2024-11-26 23:10:22 +0000",
       "minecraft:river": "2024-11-26 22:44:20 +0000",
       "minecraft:lukewarm_ocean": "2024-11-26 23:04:53 +0000",
       "minecraft:forest": "2024-11-26 22:49:58 +0000",
+      "minecraft:windswept_savanna": "2024-11-26 23:10:37 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-11-26 23:08:58 +0000",
+      "minecraft:old_growth_birch_forest": "2024-11-26 23:11:05 +0000",
       "minecraft:savanna": "2024-11-26 22:31:23 +0000",
       "minecraft:plains": "2024-11-26 22:52:44 +0000"
     },
@@ -1032,9 +1037,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-26 23:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-26 23:15:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/dried_kelp_from_campfire_cooking": {
     "criteria": {
       "has_kelp": "2024-11-26 23:06:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-26 23:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-26 23:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-26 23:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-26 23:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-26 23:15:03 +0000"
     },
     "done": true
   },
@@ -1050,9 +1097,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-26 23:15:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/jungle_chest_boat": {
     "criteria": {
       "has_boat": "2024-11-26 23:04:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-26 23:15:03 +0000"
     },
     "done": true
   },
@@ -1062,9 +1121,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-26 23:15:03 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/mangrove_chest_boat": {
     "criteria": {
       "has_boat": "2024-11-26 23:04:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-26 23:15:03 +0000"
     },
     "done": true
   },
@@ -1095,6 +1166,18 @@
   "minecraft:recipes/transportation/birch_chest_boat": {
     "criteria": {
       "has_boat": "2024-11-26 23:04:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-26 23:15:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-26 23:15:03 +0000"
     },
     "done": true
   },

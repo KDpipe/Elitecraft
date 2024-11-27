@@ -14,6 +14,7 @@
       "minecraft:sparse_jungle": "2024-11-26 22:45:57 +0000",
       "minecraft:river": "2024-11-26 22:45:13 +0000",
       "minecraft:lukewarm_ocean": "2024-11-26 23:25:27 +0000",
+      "minecraft:stony_shore": "2024-11-27 00:33:45 +0000",
       "minecraft:dripstone_caves": "2024-11-26 23:04:36 +0000",
       "minecraft:forest": "2024-11-26 22:44:07 +0000",
       "minecraft:lush_caves": "2024-11-26 23:14:28 +0000",
@@ -22,6 +23,7 @@
       "minecraft:windswept_savanna": "2024-11-26 23:23:58 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-11-26 23:26:00 +0000",
       "minecraft:old_growth_birch_forest": "2024-11-27 00:26:08 +0000",
+      "minecraft:meadow": "2024-11-27 00:30:45 +0000",
       "minecraft:savanna": "2024-11-26 22:40:01 +0000",
       "minecraft:plains": "2024-11-26 22:45:27 +0000"
     },
@@ -1427,9 +1429,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2024-11-27 00:37:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed": {
     "criteria": {
       "has_black_wool": "2024-11-27 00:27:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2024-11-27 00:44:27 +0000"
     },
     "done": true
   },
@@ -1445,6 +1459,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-27 00:38:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-27 00:38:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/book": {
     "criteria": {
       "has_paper": "2024-11-27 00:17:09 +0000"
@@ -1457,9 +1483,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-27 00:38:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-27 00:38:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-27 00:38:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-27 00:38:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_carpet": {
     "criteria": {
       "has_black_wool": "2024-11-27 00:27:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-27 00:38:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-27 00:38:44 +0000"
     },
     "done": true
   },
@@ -1469,15 +1531,45 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-27 00:38:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_bookshelf": {
     "criteria": {
       "has_book": "2024-11-27 00:17:13 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-27 00:38:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-11-27 00:45:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2024-11-27 00:37:25 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2024-11-27 00:27:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2024-11-27 00:37:25 +0000"
     },
     "done": true
   },
@@ -1499,6 +1591,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-27 00:38:44 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/bamboo_block": {
     "criteria": {
       "has_bamboo": "2024-11-27 00:25:13 +0000"
@@ -1508,6 +1606,18 @@
   "minecraft:recipes/decorations/scaffolding": {
     "criteria": {
       "has_bamboo": "2024-11-27 00:25:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-27 00:38:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2024-11-27 00:38:44 +0000"
     },
     "done": true
   },

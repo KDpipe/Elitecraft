@@ -98,3 +98,12 @@
 [03:28:16] [Server thread/INFO]: Gordified_ issued server command: /msg KreiXer ok
 [03:29:49] [Server thread/INFO]: Gordified_ lost connection: Disconnected
 [03:29:49] [Server thread/INFO]: [MIEMBRO] Gordified_ left the game
+[03:35:47] [User Authenticator #1/INFO]: UUID of player Gordified_ is b5755c2e-1455-34a7-bcd6-ab457279cf56
+[03:35:47] [Server thread/INFO]: [MIEMBRO] Gordified_ joined the game
+[03:35:47] [Server thread/INFO]: Gordified_[/127.77.165.83:56055] logged in with entity id 8608 at ([world]-1488.9387705442132, 66.0, -267.810247069094)
+[03:36:42] [Server thread/INFO]: bolo3610 lost connection: Disconnected
+[03:36:42] [Server thread/INFO]: [MIEMBRO] bolo3610 left the game
+[03:36:52] [Server thread/INFO]: [MIEMBRO] Gordified_ drowned
+[03:37:01] [Async Chat Thread - #3/INFO]: [Not Secure] <KreiXer> ?
+[03:40:37] [Server thread/INFO]: KreiXer issued server command: /msg Gordified_ no funciona la granja de hilo
+[03:40:52] [Server thread/INFO]: Gordified_ issued server command: /msg KreiXer mrd

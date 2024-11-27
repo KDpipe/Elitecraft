@@ -62,3 +62,8 @@
 [04:14:13] [User Authenticator #0/INFO]: UUID of player iZack_kun is b3bae35d-4a1a-3d8a-8769-42598da075b1
 [04:14:13] [Server thread/INFO]: [MIEMBRO] iZack_kun joined the game
 [04:14:13] [Server thread/INFO]: iZack_kun[/127.1.134.44:46191] logged in with entity id 193 at ([world]-5415.771743365506, 78.0, -3630.972980821943)
+[04:37:48] [Server thread/INFO]: iZack_kun lost connection: Disconnected
+[04:37:48] [Server thread/INFO]: [MIEMBRO] iZack_kun left the game
+[04:40:46] [User Authenticator #1/INFO]: UUID of player iZack_kun is b3bae35d-4a1a-3d8a-8769-42598da075b1
+[04:40:46] [Server thread/INFO]: [MIEMBRO] iZack_kun joined the game
+[04:40:46] [Server thread/INFO]: iZack_kun[/127.1.134.44:47475] logged in with entity id 3285 at ([world]-5416.026530543688, 75.0, -3629.8703015271767)

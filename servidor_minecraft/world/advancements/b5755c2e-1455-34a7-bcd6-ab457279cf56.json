@@ -510,6 +510,7 @@
       "minecraft:skeleton": "2024-11-26 22:49:46 +0000",
       "minecraft:piglin_brute": "2024-11-26 23:35:23 +0000",
       "minecraft:wither_skeleton": "2024-11-26 23:56:51 +0000",
+      "minecraft:cave_spider": "2024-11-27 03:42:57 +0000",
       "minecraft:piglin": "2024-11-26 23:34:11 +0000",
       "minecraft:enderman": "2024-11-26 22:43:04 +0000",
       "minecraft:zombie": "2024-11-26 22:40:43 +0000",
@@ -1764,6 +1765,66 @@
   "minecraft:recipes/food/cake": {
     "criteria": {
       "has_egg": "2024-11-27 00:31:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2024-11-27 03:43:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-11-27 03:42:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2024-11-27 03:42:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2024-11-27 03:42:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2024-11-27 03:42:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2024-11-27 03:42:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2024-11-27 03:42:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2024-11-27 03:43:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2024-11-27 03:42:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2024-11-27 03:43:12 +0000"
     },
     "done": true
   },

@@ -1,498 +1,81 @@
-[00:02:51] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[00:02:53] [ServerMain/INFO]: Loaded 7 recipes
-[00:02:54] [Server thread/INFO]: Starting minecraft server version 1.20.1
-[00:02:54] [Server thread/INFO]: Loading properties
-[00:02:54] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
-[00:02:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[00:02:54] [Server thread/INFO]: Using 4 threads for Netty based IO
-[00:02:55] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+[01:15:10] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01:15:12] [ServerMain/INFO]: Loaded 7 recipes
+[01:15:13] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[01:15:13] [Server thread/INFO]: Loading properties
+[01:15:13] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[01:15:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:15:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:15:14] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
     We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
     For more information please visit: https://github.com/PaperMC/Paper/issues/8948
-[00:02:55] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
-[00:02:55] [Server thread/INFO]: Default game type: SURVIVAL
-[00:02:55] [Server thread/INFO]: Generating keypair
-[00:02:55] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:02:55] [Server thread/INFO]: Using epoll channel type
-[00:02:55] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[00:02:55] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[00:02:56] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
-[00:02:56] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
-[00:02:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[00:02:57] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[00:02:57] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[00:02:57] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[00:02:58] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.1
-[00:02:58] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
-[00:02:58] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:02:58] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
-[00:02:58] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
-[00:02:59] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
-[00:02:59] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
-[00:02:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:02:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:02:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:02:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:02:59] [Server thread/INFO]: Preparing level "world"
-[00:02:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:02:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:02:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
-[00:02:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
-[00:02:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
-[00:02:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
-[00:02:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:02:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.4
-[00:02:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dc501c7
-[00:02:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
-[00:02:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
-[00:02:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
-[00:02:59] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
-[00:03:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[00:03:00] [Server thread/INFO]: Time elapsed: 327 ms
-[00:03:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[00:03:00] [Server thread/INFO]: Time elapsed: 64 ms
-[00:03:00] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[00:03:00] [Server thread/INFO]: Time elapsed: 117 ms
-[00:03:00] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
-[00:03:00] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
-[00:03:00] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.1
-[00:03:01] [Server thread/INFO]: Running delayed init tasks
-[00:03:01] [Server thread/INFO]: Done (6.852s)! For help, type "help"
-[00:03:01] [Server thread/INFO]: Timings Reset
-[00:03:01] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[00:03:01] [Server thread/INFO]: com.mojang.authlib.GameProfile@5bcf8d56[id=b5755c2e-1455-34a7-bcd6-ab457279cf56,name=Gordified_,properties={},legacy=false] (/127.77.165.83:59289) lost connection: Disconnected
-[00:03:01] [User Authenticator #0/INFO]: UUID of player Gordified_ is b5755c2e-1455-34a7-bcd6-ab457279cf56
-[00:03:10] [User Authenticator #0/INFO]: UUID of player SoyMax98_XP is d980653e-3a24-392b-ade7-8dd3c54788d3
-[00:03:10] [Server thread/INFO]: [MIEMBRO] SoyMax98_XP joined the game
-[00:03:11] [Server thread/INFO]: SoyMax98_XP[/127.37.218.146:54531] logged in with entity id 377 at ([world_nether]-146.5829840048452, 76.0, 79.76220261573143)
-[00:03:13] [User Authenticator #0/INFO]: UUID of player Gordified_ is b5755c2e-1455-34a7-bcd6-ab457279cf56
-[00:03:13] [Server thread/INFO]: [MIEMBRO] Gordified_ joined the game
-[00:03:13] [Server thread/INFO]: Gordified_[/127.77.165.83:48629] logged in with entity id 393 at ([world_nether]-143.74391358480668, 76.0, 76.28918836755162)
-[00:03:19] [User Authenticator #0/INFO]: UUID of player KDpipe_MC is 6663bd88-c099-35a1-b086-4658e78b4abe
-[00:03:19] [Server thread/INFO]: [ADMIN] KDpipe_MC joined the game
-[00:03:19] [Server thread/INFO]: KDpipe_MC[/127.182.79.87:56923] logged in with entity id 410 at ([world_nether]-80.24323260772304, 75.78909897252167, 67.88414338065898)
-[00:03:32] [User Authenticator #0/INFO]: UUID of player lostiem is ad641d6a-ed16-3629-baa9-7c76a2050c2e
-[00:03:32] [Server thread/INFO]: [MIEMBRO] lostiem joined the game
-[00:03:32] [Server thread/INFO]: lostiem[/127.3.94.241:54715] logged in with entity id 428 at ([world]-164.5, 63.0, -252.5)
-[00:03:37] [User Authenticator #0/INFO]: UUID of player Chese_Master is 77d00ca6-ec6d-3bac-aa90-11afa00c1da2
-[00:03:37] [Server thread/INFO]: [MIEMBRO] Chese_Master joined the game
-[00:03:37] [Server thread/INFO]: Chese_Master[/127.254.43.180:46635] logged in with entity id 484 at ([world]-1981.0415656163348, 75.0, 607.1106797856212)
-[00:03:47] [User Authenticator #0/INFO]: UUID of player iZack_kun is b3bae35d-4a1a-3d8a-8769-42598da075b1
-[00:03:47] [Server thread/INFO]: [MIEMBRO] iZack_kun joined the game
-[00:03:47] [Server thread/INFO]: iZack_kun[/127.1.134.44:33459] logged in with entity id 787 at ([world]-2888.501966357664, 62.07326432466507, -2179.347702433267)
-[00:03:56] [Async Chat Thread - #1/INFO]: [Not Secure] <iZack_kun> que fue
-[00:04:01] [Async Chat Thread - #0/INFO]: [Not Secure] <KDpipe_MC> nose
-[00:04:13] [Server thread/INFO]: KDpipe_MC issued server command: /tp iZack_kun
-[00:04:13] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] iZack_kun]
-[00:05:08] [Server thread/INFO]: [MIEMBRO] SoyMax98_XP has made the advancement [Into Fire]
-[00:05:29] [Server thread/INFO]: KDpipe_MC issued server command: /tp Chese_Master
-[00:05:29] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] Chese_Master]
-[00:05:51] [Server thread/INFO]: [MIEMBRO] lostiem has made the advancement [Stone Age]
-[00:06:02] [Async Chat Thread - #2/INFO]: [Not Secure] <iZack_kun> ando en busqueda pablo
-[00:06:03] [Server thread/INFO]: Chese_Master lost connection: Disconnected
-[00:06:03] [Server thread/INFO]: [MIEMBRO] Chese_Master left the game
-[00:06:04] [Async Chat Thread - #3/INFO]: [Not Secure] <iZack_kun> de la aldea
-[00:06:13] [Async Chat Thread - #3/INFO]: [Not Secure] <iZack_kun> la de plains
-[00:06:28] [User Authenticator #1/INFO]: UUID of player Chese_Master is 77d00ca6-ec6d-3bac-aa90-11afa00c1da2
-[00:06:28] [Server thread/INFO]: [MIEMBRO] Chese_Master joined the game
-[00:06:28] [Server thread/INFO]: Chese_Master[/127.254.43.180:32773] logged in with entity id 4578 at ([world]-1954.4679038873674, 71.0, 625.1671828562324)
-[00:06:35] [Server thread/INFO]: [MIEMBRO] lostiem has made the advancement [Getting an Upgrade]
-[00:06:44] [User Authenticator #1/INFO]: UUID of player Panconwevo is ffc21f00-b219-3e40-8bfa-bfd97fd7ae95
-[00:06:44] [Server thread/INFO]: [MIEMBRO] Panconwevo joined the game
-[00:06:44] [Server thread/INFO]: Panconwevo[/127.40.118.116:59249] logged in with entity id 4658 at ([world]-3355.3275587427925, 64.76636799395752, -1126.4309838563104)
-[00:06:49] [Server thread/INFO]: [MIEMBRO] Gordified_ has made the advancement [Into Fire]
-[00:07:03] [Async Chat Thread - #2/INFO]: [Not Secure] <iZack_kun> no cometiste el error
-[00:07:04] [Async Chat Thread - #3/INFO]: [Not Secure] <iZack_kun> XD
-[00:07:30] [Server thread/INFO]: Panconwevo lost connection: Disconnected
-[00:07:30] [Server thread/INFO]: [MIEMBRO] Panconwevo left the game
-[00:07:53] [Async Chat Thread - #2/INFO]: [Not Secure] <iZack_kun> tu no lo sabes te estoy vigilando
-[00:08:03] [Async Chat Thread - #3/INFO]: [Not Secure] <iZack_kun> dile eso pablo
-[00:08:36] [Async Chat Thread - #2/INFO]: [Not Secure] <iZack_kun> se crasheo pq ando cargando chunks como loco
-[00:08:37] [Server thread/INFO]: [MIEMBRO] lostiem has made the advancement [Monster Hunter]
-[00:08:55] [Server thread/INFO]: Gordified_ lost connection: Disconnected
-[00:08:55] [Server thread/INFO]: [MIEMBRO] Gordified_ left the game
-[00:09:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8183ms or 163 ticks behind
-[00:09:09] [Server thread/INFO]: iZack_kun lost connection: Disconnected
-[00:09:09] [Server thread/INFO]: [MIEMBRO] iZack_kun left the game
-[00:09:09] [Server thread/WARN]: lostiem moved too quickly! 14.42042766849545,1.0863316935682121,-10.32181031987102
-[00:09:19] [User Authenticator #2/INFO]: UUID of player iZack_kun is b3bae35d-4a1a-3d8a-8769-42598da075b1
-[00:09:19] [Server thread/INFO]: [MIEMBRO] iZack_kun joined the game
-[00:09:19] [Server thread/INFO]: iZack_kun[/127.1.134.44:56447] logged in with entity id 8369 at ([world]-3997.9397600470384, 42.0, -3099.466454806496)
-[00:09:43] [Async Chat Thread - #4/INFO]: [Not Secure] <iZack_kun> si
-[00:09:50] [Async Chat Thread - #5/INFO]: [Not Secure] <iZack_kun> esque
-[00:09:52] [Async Chat Thread - #4/INFO]: [Not Secure] <iZack_kun> murio
-[00:09:55] [Async Chat Thread - #5/INFO]: [Not Secure] <iZack_kun> y perdio una notch
-[00:09:56] [Async Chat Thread - #4/INFO]: [Not Secure] <iZack_kun> pero
-[00:10:01] [Async Chat Thread - #5/INFO]: [Not Secure] <iZack_kun> por el crash la recupero
-[00:10:17] [Async Chat Thread - #4/INFO]: [Not Secure] <iZack_kun> compra host
-[00:10:19] [User Authenticator #2/INFO]: UUID of player Tula3000 is 8f9f9f1f-b995-3de2-8477-d25df54b715a
-[00:10:19] [Server thread/INFO]: [MIEMBRO] Tula3000 joined the game
-[00:10:19] [Server thread/INFO]: Tula3000[/127.73.49.177:57757] logged in with entity id 9676 at ([world]742.9352516330714, 70.79673560066871, 919.4052237761108)
-[00:10:36] [Async Chat Thread - #5/INFO]: [Not Secure] <Tula3000> pipe
-[00:10:46] [Async Chat Thread - #5/INFO]: [Not Secure] <iZack_kun> OMG
-[00:10:47] [Async Chat Thread - #5/INFO]: [Not Secure] <iZack_kun> WN
-[00:10:50] [Async Chat Thread - #4/INFO]: [Not Secure] <iZack_kun> ISLA DE CHAMPIVACAS
-[00:10:59] [Async Chat Thread - #5/INFO]: [Not Secure] <Tula3000> waos
-[00:11:40] [Async Chat Thread - #4/INFO]: [Not Secure] <Tula3000> el server va estar abierto ? hasta cuando
-[00:12:02] [User Authenticator #3/INFO]: UUID of player Gordified_ is b5755c2e-1455-34a7-bcd6-ab457279cf56
-[00:12:02] [Server thread/INFO]: [MIEMBRO] Gordified_ joined the game
-[00:12:02] [Server thread/INFO]: Gordified_[/127.77.165.83:49063] logged in with entity id 12125 at ([world_nether]-149.30000001192093, 73.0, 67.69999998807907)
-[00:12:10] [Async Chat Thread - #5/INFO]: [Not Secure] <KDpipe_MC> yo organizo luego los horarios
-[00:12:11] [Async Chat Thread - #4/INFO]: [Not Secure] <iZack_kun> pipe
-[00:12:13] [Async Chat Thread - #5/INFO]: [Not Secure] <iZack_kun> te vendo
-[00:12:16] [Async Chat Thread - #4/INFO]: [Not Secure] <Tula3000> ok
-[00:12:16] [Async Chat Thread - #5/INFO]: [Not Secure] <iZack_kun> una isla de champivacas
-[00:12:18] [Server thread/INFO]: KDpipe_MC issued server command: /tp iZack_kun
-[00:12:18] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] iZack_kun]
-[00:12:18] [Async Chat Thread - #4/INFO]: [Not Secure] <iZack_kun> para vivir
-[00:12:36] [Server thread/INFO]: Chese_Master lost connection: Disconnected
-[00:12:36] [Server thread/INFO]: [MIEMBRO] Chese_Master left the game
-[00:12:37] [Async Chat Thread - #5/INFO]: [Not Secure] <KDpipe_MC> yo no estoy jugando porque estaba moderando pero ya me pongo a farmear creo
-[00:12:41] [User Authenticator #3/INFO]: UUID of player gavilan21 is 802f3a32-8d79-30c1-b6ec-d2cd56142a89
-[00:12:41] [Server thread/INFO]: [MIEMBRO] gavilan21 joined the game
-[00:12:41] [Server thread/INFO]: gavilan21[/127.56.153.209:37869] logged in with entity id 12782 at ([world]-148.30000001192093, 92.0, -703.5675053524352)
-[00:12:45] [Async Chat Thread - #4/INFO]: [Not Secure] <iZack_kun> te la vendo
-[00:12:52] [Async Chat Thread - #5/INFO]: [Not Secure] <KDpipe_MC> a cuanto
-[00:12:58] [Async Chat Thread - #4/INFO]: [Not Secure] <iZack_kun> que ofrece
-[00:13:04] [Async Chat Thread - #5/INFO]: [Not Secure] <KDpipe_MC> nose
-[00:13:09] [Async Chat Thread - #5/INFO]: [Not Secure] <KDpipe_MC> cuanto quieres
-[00:13:22] [Async Chat Thread - #4/INFO]: [Not Secure] <iZack_kun> primero ofrece
-[00:13:22] [Server thread/INFO]: KDpipe_MC issued server command: /tp gavilan21
-[00:13:22] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] gavilan21]
-[00:13:36] [Server thread/INFO]: [MIEMBRO] Gordified_ was burnt to a crisp whilst fighting Blaze
-[00:13:36] [Async Chat Thread - #5/INFO]: [Not Secure] <iZack_kun> dile a pan que es de dia
-[00:13:41] [Async Chat Thread - #4/INFO]: [Not Secure] <iZack_kun> XD
-[00:13:44] [Async Chat Thread - #4/INFO]: [Not Secure] <Tula3000> xd
-[00:13:46] [Netty Epoll Server IO #3/WARN]: [ViaVersion] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
-[00:13:51] [Server thread/INFO]: Gordified_ lost connection: Disconnected
-[00:13:51] [Server thread/INFO]: [MIEMBRO] Gordified_ left the game
-[00:13:57] [Server thread/INFO]: [MIEMBRO] SoyMax98_XP has made the advancement [Not Today, Thank You]
-[00:15:09] [Async Chat Thread - #6/INFO]: [Not Secure] <iZack_kun> abetos
-[00:15:15] [User Authenticator #4/INFO]: UUID of player Panconwevo is ffc21f00-b219-3e40-8bfa-bfd97fd7ae95
-[00:15:15] [Server thread/INFO]: [MIEMBRO] Panconwevo joined the game
-[00:15:15] [Server thread/INFO]: Panconwevo[/127.40.118.116:52451] logged in with entity id 18212 at ([world]-3392.483783509904, 78.0, -1100.0191038389353)
-[00:15:43] [Async Chat Thread - #7/INFO]: [Not Secure] <iZack_kun> y plains
-[00:15:44] [Async Chat Thread - #7/INFO]: [Not Secure] <iZack_kun> gg
-[00:15:48] [Async Chat Thread - #7/INFO]: [Not Secure] <iZack_kun> a sacar el sappling
-[00:15:57] [Server thread/INFO]: KDpipe_MC issued server command: /tp Tula3000
-[00:15:57] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] Tula3000]
-[00:16:22] [Server thread/INFO]: KDpipe_MC issued server command: /gamemode spectator
-[00:16:22] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Set own game mode to Spectator Mode]
-[00:16:27] [Server thread/INFO]: KDpipe_MC issued server command: /gamemode creative
-[00:16:27] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Set own game mode to Creative Mode]
-[00:16:32] [Server thread/INFO]: KDpipe_MC issued server command: /gamemode spectator
-[00:16:32] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Set own game mode to Spectator Mode]
-[00:16:38] [Server thread/INFO]: KDpipe_MC issued server command: /tp SoyMax98_XP
-[00:16:38] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] SoyMax98_XP]
-[00:17:32] [Async Chat Thread - #8/INFO]: [Not Secure] <iZack_kun> XD
-[00:17:42] [Async Chat Thread - #9/INFO]: [Not Secure] <iZack_kun> pan
-[00:17:44] [Async Chat Thread - #8/INFO]: [Not Secure] <iZack_kun> y tu novio
-[00:18:18] [Server thread/INFO]: KDpipe_MC issued server command: /gamemode creative
-[00:18:18] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Set own game mode to Creative Mode]
-[00:18:18] [Server thread/INFO]: [ADMIN] KDpipe_MC has made the advancement [Hot Stuff]
-[00:18:18] [Server thread/INFO]: [ADMIN] KDpipe_MC has made the advancement [Suit Up]
-[00:18:33] [Async Chat Thread - #9/INFO]: [Not Secure] <iZack_kun> aldea
-[00:18:37] [Async Chat Thread - #8/INFO]: [Not Secure] <iZack_kun> alfin
-[00:18:41] [Async Chat Thread - #9/INFO]: [Not Secure] <iZack_kun> y en plains
-[00:18:48] [Async Chat Thread - #8/INFO]: [Not Secure] <iZack_kun> paso cords al discord
-[00:18:54] [Async Chat Thread - #9/INFO]: [Not Secure] <iZack_kun> voy
-[00:19:21] [Server thread/WARN]: Tula3000 moved too quickly! 24.735392365439168,1.252203340253729,8.35794915414158
-[00:19:27] [Async Chat Thread - #8/INFO]: [Not Secure] <iZack_kun> XDD
-[00:19:37] [Server thread/INFO]: [MIEMBRO] SoyMax98_XP has made the advancement [Hot Stuff]
-[00:19:52] [Server thread/INFO]: [MIEMBRO] Panconwevo has made the advancement [Ice Bucket Challenge]
-[00:19:58] [Async Chat Thread - #9/INFO]: [Not Secure] <iZack_kun> ya
-[00:20:02] [Async Chat Thread - #8/INFO]: [Not Secure] <iZack_kun> estan en discord
-[00:20:13] [Async Chat Thread - #9/INFO]: [Not Secure] <iZack_kun> pan
-[00:20:18] [Async Chat Thread - #8/INFO]: [Not Secure] <iZack_kun> mira las cords de la aldea
-[00:20:18] [Server thread/INFO]: KDpipe_MC issued server command: /tp SoyMax98_XP
-[00:20:18] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] SoyMax98_XP]
-[00:20:41] [Server thread/INFO]: Panconwevo lost connection: Disconnected
-[00:20:41] [Server thread/INFO]: [MIEMBRO] Panconwevo left the game
-[00:20:42] [Server thread/INFO]: [ADMIN] KDpipe_MC has made the advancement [Ice Bucket Challenge]
-[00:21:06] [Async Chat Thread - #9/INFO]: [Not Secure] <iZack_kun> q
-[00:21:12] [Async Chat Thread - #8/INFO]: [Not Secure] <iZack_kun> XD
-[00:22:13] [Async Chat Thread - #10/INFO]: [Not Secure] <iZack_kun> caballos
-[00:22:24] [Server thread/INFO]: gavilan21 lost connection: Disconnected
-[00:22:24] [Server thread/INFO]: [MIEMBRO] gavilan21 left the game
-[00:22:27] [Server thread/INFO]: Tula3000 issued server command: /seed
-[00:22:46] [Async Chat Thread - #11/INFO]: [Not Secure] <iZack_kun> SE QUEMA LA ALDEA
-[00:22:47] [Async Chat Thread - #10/INFO]: [Not Secure] <iZack_kun> NOOOOO
-[00:22:52] [User Authenticator #5/INFO]: UUID of player Gordified_ is b5755c2e-1455-34a7-bcd6-ab457279cf56
-[00:22:52] [Server thread/INFO]: [MIEMBRO] Gordified_ joined the game
-[00:22:52] [Server thread/INFO]: Gordified_[/127.77.165.83:49975] logged in with entity id 29273 at ([world]-169.5, 63.0, -260.5)
-[00:22:56] [Server thread/INFO]: KDpipe_MC issued server command: /tp SoyMax98_XP
-[00:22:56] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] SoyMax98_XP]
-[00:23:03] [Async Chat Thread - #11/INFO]: [Not Secure] <iZack_kun> se quemo una casa
-[00:23:08] [Async Chat Thread - #11/INFO]: [Not Secure] <iZack_kun> porque habia alado un lago de lava
-[00:23:09] [Server thread/INFO]: Gordified_ lost connection: Disconnected
-[00:23:09] [Server thread/INFO]: [MIEMBRO] Gordified_ left the game
-[00:23:12] [Server thread/WARN]: SoyMax98_XP was kicked due to keepalive timeout!
-[00:23:12] [Server thread/INFO]: SoyMax98_XP lost connection: Timed out
-[00:23:12] [Server thread/INFO]: SoyMax98_XP left the game
-[00:23:18] [Async Chat Thread - #10/INFO]: [Not Secure] <iZack_kun> 2 cosas para pociones
-[00:23:19] [Async Chat Thread - #11/INFO]: [Not Secure] <iZack_kun> gg
-[00:23:49] [User Authenticator #5/INFO]: UUID of player Gordified_ is b5755c2e-1455-34a7-bcd6-ab457279cf56
-[00:23:49] [Server thread/INFO]: [MIEMBRO] Gordified_ joined the game
-[00:23:49] [Server thread/INFO]: Gordified_[/127.77.165.83:36033] logged in with entity id 30661 at ([world]-169.5, 63.0, -260.5)
-[00:24:07] [User Authenticator #5/INFO]: UUID of player SoyMax98_XP is d980653e-3a24-392b-ade7-8dd3c54788d3
-[00:24:07] [Server thread/INFO]: [MIEMBRO] SoyMax98_XP joined the game
-[00:24:07] [Server thread/INFO]: SoyMax98_XP[/127.37.218.146:38905] logged in with entity id 31023 at ([world]-1418.7378648412289, -40.0, 535.4148002308826)
-[00:24:17] [Server thread/INFO]: Gordified_ lost connection: Disconnected
-[00:24:17] [Server thread/INFO]: [MIEMBRO] Gordified_ left the game
-[00:24:24] [Server thread/INFO]: SoyMax98_XP lost connection: Disconnected
-[00:24:24] [Server thread/INFO]: [MIEMBRO] SoyMax98_XP left the game
-[00:25:25] [User Authenticator #6/INFO]: UUID of player Panconwevo is ffc21f00-b219-3e40-8bfa-bfd97fd7ae95
-[00:25:25] [Server thread/INFO]: [MIEMBRO] Panconwevo joined the game
-[00:25:25] [Server thread/INFO]: Panconwevo[/127.40.118.116:45211] logged in with entity id 32332 at ([world]-3528.071416399906, 81.0, -1178.957486590678)
-[00:25:35] [User Authenticator #6/INFO]: UUID of player oskr2804 is 40595c96-2524-3ff6-bf48-0f9754d3b040
-[00:25:35] [Server thread/INFO]: oskr2804 joined the game
-[00:25:35] [Server thread/INFO]: oskr2804[/127.174.177.49:47703] logged in with entity id 32777 at ([world]-154.5, 63.0, -255.5)
-[00:25:42] [Server thread/INFO]: KDpipe_MC issued server command: /team join Miembro oskr2804
-[00:25:42] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Added oskr2804 to team [Miembro]]
-[00:25:46] [Server thread/INFO]: KDpipe_MC issued server command: /tp oskr2804
-[00:25:46] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] oskr2804]
-[00:26:13] [Async Chat Thread - #12/INFO]: [Not Secure] <iZack_kun> si
-[00:26:14] [Async Chat Thread - #13/INFO]: [Not Secure] <iZack_kun> yo
-[00:26:17] [Server thread/INFO]: Panconwevo lost connection: Disconnected
-[00:26:17] [Server thread/INFO]: [MIEMBRO] Panconwevo left the game
-[00:26:31] [Server thread/INFO]: KDpipe_MC issued server command: /playsound minecraft:entity.creeper.primed ambient @a
-[00:26:31] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Played sound minecraft:entity.creeper.primed to 5 players]
-[00:27:00] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/23654, uuid='50379d67-abd9-45c5-8f04-dcc0215c6114', l='ServerLevel[world]', x=-5478.80, y=70.50, z=-3714.50, cpos=[-343, -233], tl=10018, v=true] died, message: 'Leatherworker was slain by Zombie'
-[00:27:04] [Server thread/INFO]: [MIEMBRO] oskr2804 has made the advancement [Stone Age]
-[00:27:23] [Server thread/INFO]: KDpipe_MC issued server command: /tp iZack_kun
-[00:27:23] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] iZack_kun]
-[00:27:26] [Server thread/INFO]: KDpipe_MC issued server command: /tp Tula3000
-[00:27:26] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] Tula3000]
-[00:27:34] [User Authenticator #7/INFO]: UUID of player Gordified_ is b5755c2e-1455-34a7-bcd6-ab457279cf56
-[00:27:34] [Server thread/INFO]: [MIEMBRO] Gordified_ joined the game
-[00:27:34] [Server thread/INFO]: Gordified_[/127.77.165.83:35297] logged in with entity id 35072 at ([world]-169.51361071908272, 63.0, -258.0167214642396)
-[00:27:39] [Server thread/INFO]: KDpipe_MC issued server command: /tp Gordified_
-[00:27:39] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] Gordified_]
-[00:28:01] [Server thread/INFO]: [MIEMBRO] iZack_kun has made the advancement [Sweet Dreams]
-[00:28:12] [Server thread/INFO]: iZack_kun issued server command: /tell KDpipe_MC existe un comando para hacer que con solo 1 se haga de dia
-[00:28:16] [User Authenticator #7/INFO]: UUID of player Panconwevo is ffc21f00-b219-3e40-8bfa-bfd97fd7ae95
-[00:28:16] [Server thread/INFO]: [MIEMBRO] Panconwevo joined the game
-[00:28:16] [Server thread/INFO]: Panconwevo[/127.40.118.116:47193] logged in with entity id 35895 at ([world]-3500.5148313998247, 126.0, -1295.8266860008025)
-[00:28:25] [Server thread/INFO]: KDpipe_MC issued server command: /tell iZack_kun ya se
-[00:28:31] [Server thread/INFO]: iZack_kun issued server command: /tell KDpipe_MC pues ponlo
-[00:28:33] [Server thread/INFO]: Villager EntityVillager['Villager'/23559, uuid='1dd7b2de-07e9-4e56-83a4-1013b0ed0871', l='ServerLevel[world]', x=-5442.98, y=71.90, z=-3716.20, cpos=[-341, -233], tl=11938, v=true] died, message: 'Villager was slain by Zombie'
-[00:28:35] [Server thread/INFO]: KDpipe_MC issued server command: /gamerule playersSleepingPercentage 1
-[00:28:35] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Gamerule playersSleepingPercentage is now set to: 1]
-[00:28:36] [Async Chat Thread - #14/INFO]: [Not Secure] <KDpipe_MC> ya
-[00:28:40] [Server thread/INFO]: KDpipe_MC issued server command: /tp iZack_kun
-[00:28:40] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] iZack_kun]
-[00:28:45] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> ZOMBIE DE MRD
-[00:28:48] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> ME MATO AL ALDEANO
-[00:28:48] [Server thread/INFO]: [MIEMBRO] oskr2804 has made the advancement [Monster Hunter]
-[00:29:04] [Async Chat Thread - #15/INFO]: [Not Secure] <iZack_kun> no
-[00:29:05] [Server thread/INFO]: [MIEMBRO] oskr2804 has made the advancement [Getting an Upgrade]
-[00:29:08] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> aqui nadie es su sirviente
-[00:29:24] [Async Chat Thread - #15/INFO]: [Not Secure] <iZack_kun> dile a tu pololo
-[00:29:52] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> DILE A TU JEBO
-[00:29:59] [Async Chat Thread - #15/INFO]: [Not Secure] <iZack_kun> XD
-[00:30:01] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> pipe
-[00:30:03] [Async Chat Thread - #15/INFO]: [Not Secure] <iZack_kun> tus muertos
-[00:30:18] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> yy pan
-[00:30:24] [Async Chat Thread - #15/INFO]: [Not Secure] <Tula3000> w
-[00:30:28] [Async Chat Thread - #14/INFO]: [Not Secure] <Tula3000> nah
-[00:30:46] [Async Chat Thread - #15/INFO]: [Not Secure] <iZack_kun> estoy cerca
-[00:30:54] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> no
-[00:30:55] [Async Chat Thread - #15/INFO]: [Not Secure] <iZack_kun> es
-[00:30:58] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> -5000
-[00:30:58] [User Authenticator #8/INFO]: UUID of player SoyMax98_XP is d980653e-3a24-392b-ade7-8dd3c54788d3
-[00:30:58] [Server thread/INFO]: [MIEMBRO] SoyMax98_XP joined the game
-[00:30:58] [Server thread/INFO]: SoyMax98_XP[/127.37.218.146:42665] logged in with entity id 40028 at ([world]-1418.7378648412289, -40.0, 535.4148002308826)
-[00:31:03] [Async Chat Thread - #15/INFO]: [Not Secure] <iZack_kun> esque pan ya andaba aca
-[00:31:04] [Async Chat Thread - #16/INFO]: [Not Secure] <iZack_kun> i
-[00:31:06] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> si
-[00:31:08] [Async Chat Thread - #16/INFO]: [Not Secure] <iZack_kun> yo llegue en barco
-[00:31:16] [Server thread/INFO]: [MIEMBRO] Panconwevo has made the advancement [Acquire Hardware]
-[00:31:34] [Server thread/INFO]: SoyMax98_XP lost connection: Disconnected
-[00:31:34] [Server thread/INFO]: [MIEMBRO] SoyMax98_XP left the game
-[00:31:40] [Async Chat Thread - #16/INFO]: [Not Secure] <iZack_kun> no se puede craftear
-[00:32:18] [Server thread/INFO]: Gordified_ lost connection: Disconnected
-[00:32:18] [Server thread/INFO]: [MIEMBRO] Gordified_ left the game
-[00:33:21] [Async Chat Thread - #17/INFO]: [Not Secure] <iZack_kun> le puse pausa
-[00:33:23] [Async Chat Thread - #18/INFO]: [Not Secure] <iZack_kun> a mi serie
-[00:33:26] [Async Chat Thread - #17/INFO]: [Not Secure] <iZack_kun> sino no le doy atencion
-[00:33:28] [Async Chat Thread - #18/INFO]: [Not Secure] <iZack_kun> si
-[00:33:38] [Async Chat Thread - #18/INFO]: [Not Secure] <iZack_kun> no soy solislol
-[00:34:31] [Async Chat Thread - #18/INFO]: [Not Secure] <iZack_kun> la zona de los pandas pan
-[00:35:19] [Server thread/INFO]: iZack_kun issued server command: /tell Panconwevo cuando te declararas a oscar
-[00:35:48] [Async Chat Thread - #18/INFO]: [Not Secure] <iZack_kun> pipe
-[00:35:49] [Async Chat Thread - #19/INFO]: [Not Secure] <iZack_kun> pan dice
-[00:35:53] [Async Chat Thread - #18/INFO]: [Not Secure] <iZack_kun> que esta grifeando el spawn
-[00:37:20] [Server thread/INFO]: iZack_kun issued server command: /tell Panconwevo cuando te declararas a oscar
-[00:37:47] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> dale click al mensaje
-[00:37:49] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> y se manda msg
-[00:37:56] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> pq
-[00:38:13] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> XD
-[00:38:18] [Server thread/INFO]: iZack_kun issued server command: /tell Panconwevo cuando te declararas a oscar
-[00:38:33] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> pero pq
-[00:38:49] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> XD
-[00:38:52] [Server thread/INFO]: [MIEMBRO] oskr2804 has made the advancement [Ice Bucket Challenge]
-[00:39:13] [Server thread/INFO]: [MIEMBRO] lostiem has made the advancement [Acquire Hardware]
-[00:39:34] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> yyy oscar
-[00:40:10] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> pq apensa
-[00:40:12] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> apenas
-[00:40:29] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> el ultimo en llegar
-[00:40:30] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> es gei
-[00:40:56] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> tu aun ni llegas
-[00:41:14] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> es mujeres
-[00:41:15] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> para ti
-[00:41:19] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> la cherry
-[00:41:35] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> te gusta cherry????
-[00:42:17] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> aca hay lago de lava
-[00:42:53] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> ya lleguen
-[00:43:19] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> majadera
-[00:43:35] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> q
-[00:43:37] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> ?
-[00:43:50] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> agarra sapplings
-[00:43:56] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> o guarda cords
-[00:44:02] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> agarra sapplings
-[00:44:03] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> no
-[00:44:07] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> agarra sapplings
-[00:44:15] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> agarra sapplings
-[00:44:16] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> agarra sapplings
-[00:44:16] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> agarra sapplings
-[00:44:17] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> agarra sapplings
-[00:44:20] [Async Chat Thread - #20/INFO]: [Not Secure] <Tula3000> dwa
-[00:44:29] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> yo pase por uno
-[00:44:31] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> para llegar aca
-[00:45:00] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> no
-[00:45:04] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> -5k
-[00:45:45] [Server thread/INFO]: [MIEMBRO] oskr2804 drowned
-[00:45:50] [Async Chat Thread - #22/INFO]: [Not Secure] <iZack_kun> que agarres sapplings
-[00:45:51] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> XDDDDDD
-[00:45:52] [Async Chat Thread - #22/INFO]: [Not Secure] <iZack_kun> XDDDDDD
-[00:45:52] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> XDDDDDD
-[00:45:52] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> XDDDDDD
-[00:45:53] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> XDDDDDD
-[00:45:53] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> XDDDDDD
-[00:45:53] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> XDDDDDD
-[00:45:53] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> XDDDDDD
-[00:46:13] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> que agarres sapplings
-[00:46:13] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> que agarres sapplings
-[00:46:13] [Async Chat Thread - #22/INFO]: [Not Secure] <iZack_kun> que agarres sapplings
-[00:46:14] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> que agarres sapplings
-[00:46:14] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> que agarres sapplings
-[00:46:25] [Server thread/INFO]: [MIEMBRO] Panconwevo has made the advancement [Monster Hunter]
-[00:46:29] [Async Chat Thread - #22/INFO]: [Not Secure] <iZack_kun> EL RETOÑO DEL ARBOL
-[00:46:35] [Async Chat Thread - #21/INFO]: [Not Secure] <iZack_kun> para plantar
-[00:46:35] [Server thread/INFO]: Panconwevo lost connection: Disconnected
-[00:46:35] [Server thread/INFO]: [MIEMBRO] Panconwevo left the game
-[00:46:47] [Async Chat Thread - #22/INFO]: [Not Secure] <iZack_kun> esque pablo
-[00:46:48] [Async Chat Thread - #22/INFO]: [Not Secure] <iZack_kun> dice
-[00:46:52] [Async Chat Thread - #22/INFO]: [Not Secure] <iZack_kun> cuando la muerte los separe
-[00:46:56] [Async Chat Thread - #20/INFO]: [Not Secure] <iZack_kun> y pan no se quiere separar
-[00:48:13] [User Authenticator #9/INFO]: UUID of player Panconwevo is ffc21f00-b219-3e40-8bfa-bfd97fd7ae95
-[00:48:13] [Server thread/INFO]: [MIEMBRO] Panconwevo joined the game
-[00:48:13] [Server thread/INFO]: Panconwevo[/127.40.118.116:35515] logged in with entity id 77577 at ([world]-4739.699999988079, 95.0, -1067.000529323619)
-[00:48:36] [Async Chat Thread - #23/INFO]: [Not Secure] <iZack_kun> por no saber que es un sappling
-[00:48:53] [Async Chat Thread - #23/INFO]: [Not Secure] <iZack_kun> y aun asi es tu novio
-[00:49:26] [Async Chat Thread - #23/INFO]: [Not Secure] <iZack_kun> esque
-[00:49:29] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> pablo es bob esponja
-[00:49:48] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> cuando llegan
-[00:49:51] [Server thread/INFO]: KDpipe_MC lost connection: Timed out
-[00:49:51] [Server thread/INFO]: [ADMIN] KDpipe_MC left the game
-[00:49:53] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> no
-[00:49:58] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> agarra sapplings
-[00:50:21] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> AGARRA SAPPLINGS
-[00:50:32] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> andas llorando wn
-[00:50:44] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> mandilon oscar?
-[00:51:08] [Async Chat Thread - #26/INFO]: [Not Secure] <iZack_kun> pero si oscar te gana en deletreado
-[00:51:27] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> le dije
-[00:51:30] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> deletrea playa
-[00:51:31] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> y dijo
-[00:51:33] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> palya
-[00:51:57] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> a oscar le dije
-[00:51:58] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> di
-[00:51:59] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> vibra
-[00:52:00] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> y dijo
-[00:52:02] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> bivra
-[00:52:19] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> lo peor
-[00:52:21] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> es que despues de eso
-[00:52:23] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> le dije a pan
-[00:52:25] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> deletrea vibrar
-[00:52:29] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> y dijo lo mismo
-[00:52:39] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> ya llega
-[00:53:15] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> no
-[00:53:22] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> ya tengo aldea
-[00:53:24] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> nimodo
-[00:53:28] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> y ya encerre a los aldeanos
-[00:53:29] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> tmb
-[00:53:33] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> estan las cords en discord
-[00:53:43] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> ami que
-[00:54:00] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> por eso
-[00:54:03] [Async Chat Thread - #24/INFO]: [Not Secure] <iZack_kun> pan
-[00:54:06] [Async Chat Thread - #27/INFO]: [Not Secure] <iZack_kun> no puedes decirlo
-[00:54:09] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> porque ni tienes el club del fort
-[00:54:18] [Async Chat Thread - #27/INFO]: [Not Secure] <iZack_kun> yo si lo tengo
-[00:54:18] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> xd
-[00:54:27] [Async Chat Thread - #27/INFO]: [Not Secure] <iZack_kun> ALDEANO DE MIERDA
-[00:54:32] [Async Chat Thread - #27/INFO]: [Not Secure] <Tula3000> XD
-[00:54:33] [Async Chat Thread - #27/INFO]: [Not Secure] <iZack_kun> por eso no juego contigo
-[00:54:37] [Async Chat Thread - #27/INFO]: [Not Secure] <iZack_kun> porque eres pobre
-[00:54:39] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> y no tienes skins
-[00:54:54] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> no pan
-[00:54:57] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> agarra sapplings
-[00:54:58] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> y ya
-[00:55:22] [Async Chat Thread - #28/INFO]: [Not Secure] <iZack_kun> como sabes que no
-[00:55:25] [Async Chat Thread - #28/INFO]: [Not Secure] <iZack_kun> salio rubius
-[00:56:11] [Async Chat Thread - #28/INFO]: [Not Secure] <iZack_kun> porque eres de cerru
-[00:56:16] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> estas acostumbrada a no comer
-[00:56:44] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> ese orgasmo
-[00:57:02] [Async Chat Thread - #29/INFO]: [Not Secure] <iZack_kun> estos aldeanos son novios
-[00:57:04] [Async Chat Thread - #29/INFO]: [Not Secure] <iZack_kun> asi como pan y oscar
-[00:57:12] [Async Chat Thread - #25/INFO]: [Not Secure] <Tula3000> pvp
-[00:57:27] [Async Chat Thread - #28/INFO]: [Not Secure] <iZack_kun> XD
-[00:57:44] [Async Chat Thread - #29/INFO]: [Not Secure] <iZack_kun> ya lleguen
-[00:57:50] [Async Chat Thread - #29/INFO]: [Not Secure] <iZack_kun> los que quieras
-[00:57:54] [Async Chat Thread - #28/INFO]: [Not Secure] <iZack_kun> puedes tener mas
-[00:57:55] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> si tienes 1
-[00:58:03] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> i
-[00:58:04] [Async Chat Thread - #28/INFO]: [Not Secure] <iZack_kun> si
-[00:58:34] [Async Chat Thread - #28/INFO]: [Not Secure] <iZack_kun> que se cree oscar
-[00:58:38] [Async Chat Thread - #29/INFO]: [Not Secure] <Tula3000> OMG
-[00:58:44] [Async Chat Thread - #29/INFO]: [Not Secure] <iZack_kun> nadamas por hacerle bullying
-[00:58:46] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> a su jeba
-[00:58:53] [Async Chat Thread - #28/INFO]: [Not Secure] <Tula3000> puedo tener totems
-[00:58:54] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> ya va de mandilon a defenderla
-[00:59:17] [Async Chat Thread - #28/INFO]: [Not Secure] <iZack_kun> eres una yegua?
-[00:59:41] [Async Chat Thread - #29/INFO]: [Not Secure] <iZack_kun> asi le hace cuando oscar la monta
-[00:59:51] [Async Chat Thread - #25/INFO]: [Not Secure] <Tula3000> que mierda iZack_kun
-[01:00:00] [Async Chat Thread - #29/INFO]: [Not Secure] <iZack_kun> oscar se rio
-[01:00:02] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> yo que
-[01:00:03] [Async Chat Thread - #29/INFO]: [Not Secure] <iZack_kun> XD
-[01:00:14] [Async Chat Thread - #29/INFO]: [Not Secure] <Tula3000> :v
-[01:00:22] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> ya lleguen
-[01:00:56] [Server thread/INFO]: iZack_kun issued server command: /tell Panconwevo cuando te le declaras a oscar
-[01:01:11] [Async Chat Thread - #30/INFO]: [Not Secure] <iZack_kun> pq
-[01:01:18] [Async Chat Thread - #25/INFO]: [Not Secure] <Tula3000> no duerman
-[01:01:25] [Server thread/INFO]: iZack_kun issued server command: /tell oskr2804 cuando te le declaras a pan
-[01:01:29] [Async Chat Thread - #30/INFO]: [Not Secure] <Tula3000> quiero meter a estos aldeanos
-[01:01:33] [Async Chat Thread - #30/INFO]: [Not Secure] <iZack_kun> pq no oscar
-[01:01:39] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> esperas a que lo haga ella?
-[01:01:47] [Async Chat Thread - #30/INFO]: [Not Secure] <iZack_kun> que sumiso
-[01:02:10] [Async Chat Thread - #30/INFO]: [Not Secure] <iZack_kun> ya lleguen
-[01:02:10] [Async Chat Thread - #30/INFO]: [Not Secure] <Tula3000> puta mrd quien durmio
-[01:02:18] [Async Chat Thread - #30/INFO]: [Not Secure] <iZack_kun> si
-[01:02:20] [Async Chat Thread - #31/INFO]: [Not Secure] <iZack_kun> guarda
-[01:02:23] [Async Chat Thread - #30/INFO]: [Not Secure] <iZack_kun> no
-[01:02:24] [Async Chat Thread - #30/INFO]: [Not Secure] <iZack_kun> la mesa
-[01:02:26] [Async Chat Thread - #31/INFO]: [Not Secure] <iZack_kun> de enchants
-[01:02:38] [Async Chat Thread - #25/INFO]: [Not Secure] <Tula3000> iZack_kun porq hablas porq aqui xd?
-[01:02:45] [Async Chat Thread - #30/INFO]: [Not Secure] <iZack_kun> porque estan en llamada
-[01:02:49] [Async Chat Thread - #30/INFO]: [Not Secure] <iZack_kun> y me da hueva meterme al discord
-[01:02:55] [Async Chat Thread - #31/INFO]: [Not Secure] <Tula3000> a
-[01:02:56] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> y hablar por el chat de discord
-[01:03:09] [Async Chat Thread - #31/INFO]: [Not Secure] <iZack_kun> quien tiene hambre en pan piensa, p
-[01:03:12] [Async Chat Thread - #25/INFO]: [Not Secure] <Tula3000> prende micro y habla pues :VVV
-[01:03:21] [Async Chat Thread - #31/INFO]: [Not Secure] <iZack_kun> por eso no te dejo vivir alli
-[01:03:24] [Async Chat Thread - #31/INFO]: [Not Secure] <iZack_kun> porque aun no llegas
-[01:03:34] [Async Chat Thread - #31/INFO]: [Not Secure] <iZack_kun> porque aun no llegas
-[01:03:47] [Async Chat Thread - #25/INFO]: [Not Secure] <iZack_kun> nose
-[01:03:58] [Async Chat Thread - #31/INFO]: [Not Secure] <iZack_kun> vez la aldea?
-[01:04:08] [Async Chat Thread - #31/INFO]: [Not Secure] <iZack_kun> no te veo
-[01:04:18] [Async Chat Thread - #31/INFO]: [Not Secure] <iZack_kun> hola
-[01:04:25] [Async Chat Thread - #32/INFO]: [Not Secure] <iZack_kun> mira
-[01:04:39] [Async Chat Thread - #31/INFO]: [Not Secure] <iZack_kun> dame
+[01:15:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[01:15:14] [Server thread/INFO]: Default game type: SURVIVAL
+[01:15:14] [Server thread/INFO]: Generating keypair
+[01:15:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[01:15:14] [Server thread/INFO]: Using epoll channel type
+[01:15:15] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:15:15] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:15:15] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[01:15:15] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[01:15:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:15:16] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[01:15:16] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[01:15:16] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[01:15:17] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.1
+[01:15:17] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.4.4
+[01:15:17] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:15:17] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.4.4
+[01:15:17] [Server thread/WARN]: [SkinsRestorer] You must agree to the rules at 'commands.perSkinPermissionsConsent' in the config to use per skin permissions.
+[01:15:17] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.20.1.
+[01:15:18] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[01:15:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:15:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:15:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:15:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:15:18] [Server thread/INFO]: Preparing level "world"
+[01:15:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:15:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[01:15:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[01:15:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[01:15:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[01:15:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[01:15:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:15:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.4.4
+[01:15:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: dc501c7
+[01:15:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[01:15:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[01:15:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[01:15:18] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[01:15:19] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:15:19] [Server thread/INFO]: Time elapsed: 317 ms
+[01:15:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:15:19] [Server thread/INFO]: Time elapsed: 154 ms
+[01:15:19] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:15:19] [Server thread/INFO]: Time elapsed: 133 ms
+[01:15:19] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[01:15:19] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.20-1.20.1 (763)
+[01:15:19] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.1
+[01:15:19] [Server thread/INFO]: Running delayed init tasks
+[01:15:19] [Server thread/INFO]: Done (6.754s)! For help, type "help"
+[01:15:19] [Server thread/INFO]: Timings Reset
+[01:15:19] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[01:15:22] [User Authenticator #0/INFO]: UUID of player oskr2804 is 40595c96-2524-3ff6-bf48-0f9754d3b040
+[01:15:23] [Server thread/INFO]: [MIEMBRO] oskr2804 joined the game
+[01:15:23] [Server thread/INFO]: oskr2804[/127.174.177.49:50833] logged in with entity id 33 at ([world]-2379.922092860631, 62.073264324665075, -2897.671958049373)
+[01:15:32] [User Authenticator #0/INFO]: UUID of player Panconwevo is ffc21f00-b219-3e40-8bfa-bfd97fd7ae95
+[01:15:32] [Server thread/INFO]: [MIEMBRO] Panconwevo joined the game
+[01:15:32] [Server thread/INFO]: Panconwevo[/127.40.118.116:52951] logged in with entity id 369 at ([world]-5426.426533959924, 117.0, -1097.9209783896713)
+[01:22:11] [Server thread/INFO]: [MIEMBRO] Panconwevo has made the advancement [Sweet Dreams]
+[01:22:34] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/5185, uuid='5003d68b-9be1-4814-ab76-1d1816516082', l='ServerLevel[world]', x=-5117.80, y=110.50, z=-842.68, cpos=[-320, -53], tl=2821, v=true] died, message: 'Leatherworker was slain by Zombie'
+[01:24:14] [Server thread/INFO]: oskr2804 lost connection: Banned for this server
+[01:24:14] [Server thread/INFO]: oskr2804 left the game
+[01:24:14] [Server thread/INFO]: Kicked [MIEMBRO] oskr2804: Banned for this server
+[01:24:32] [User Authenticator #1/INFO]: UUID of player oskr2804 is 40595c96-2524-3ff6-bf48-0f9754d3b040
+[01:24:32] [Server thread/INFO]: [MIEMBRO] oskr2804 joined the game
+[01:24:32] [Server thread/INFO]: oskr2804[/127.174.177.49:41797] logged in with entity id 10074 at ([world]-3217.603728293064, 62.07326432466507, -3527.404125869749)
+[01:24:40] [Server thread/INFO]: oskr2804 lost connection: Banned for this server :D
+[01:24:40] [Server thread/INFO]: oskr2804 left the game
+[01:24:40] [Server thread/INFO]: Kicked [MIEMBRO] oskr2804: Banned for this server :D
+[01:24:46] [User Authenticator #1/INFO]: UUID of player oskr2804 is 40595c96-2524-3ff6-bf48-0f9754d3b040
+[01:24:46] [Server thread/INFO]: [MIEMBRO] oskr2804 joined the game
+[01:24:46] [Server thread/INFO]: oskr2804[/127.174.177.49:39783] logged in with entity id 10297 at ([world]-3238.793513494615, 62.07326432466507, -3557.4913106673953)

@@ -216,3 +216,102 @@
 [00:22:27] [Server thread/INFO]: Tula3000 issued server command: /seed
 [00:22:46] [Async Chat Thread - #11/INFO]: [Not Secure] <iZack_kun> SE QUEMA LA ALDEA
 [00:22:47] [Async Chat Thread - #10/INFO]: [Not Secure] <iZack_kun> NOOOOO
+[00:22:52] [User Authenticator #5/INFO]: UUID of player Gordified_ is b5755c2e-1455-34a7-bcd6-ab457279cf56
+[00:22:52] [Server thread/INFO]: [MIEMBRO] Gordified_ joined the game
+[00:22:52] [Server thread/INFO]: Gordified_[/127.77.165.83:49975] logged in with entity id 29273 at ([world]-169.5, 63.0, -260.5)
+[00:22:56] [Server thread/INFO]: KDpipe_MC issued server command: /tp SoyMax98_XP
+[00:22:56] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] SoyMax98_XP]
+[00:23:03] [Async Chat Thread - #11/INFO]: [Not Secure] <iZack_kun> se quemo una casa
+[00:23:08] [Async Chat Thread - #11/INFO]: [Not Secure] <iZack_kun> porque habia alado un lago de lava
+[00:23:09] [Server thread/INFO]: Gordified_ lost connection: Disconnected
+[00:23:09] [Server thread/INFO]: [MIEMBRO] Gordified_ left the game
+[00:23:12] [Server thread/WARN]: SoyMax98_XP was kicked due to keepalive timeout!
+[00:23:12] [Server thread/INFO]: SoyMax98_XP lost connection: Timed out
+[00:23:12] [Server thread/INFO]: SoyMax98_XP left the game
+[00:23:18] [Async Chat Thread - #10/INFO]: [Not Secure] <iZack_kun> 2 cosas para pociones
+[00:23:19] [Async Chat Thread - #11/INFO]: [Not Secure] <iZack_kun> gg
+[00:23:49] [User Authenticator #5/INFO]: UUID of player Gordified_ is b5755c2e-1455-34a7-bcd6-ab457279cf56
+[00:23:49] [Server thread/INFO]: [MIEMBRO] Gordified_ joined the game
+[00:23:49] [Server thread/INFO]: Gordified_[/127.77.165.83:36033] logged in with entity id 30661 at ([world]-169.5, 63.0, -260.5)
+[00:24:07] [User Authenticator #5/INFO]: UUID of player SoyMax98_XP is d980653e-3a24-392b-ade7-8dd3c54788d3
+[00:24:07] [Server thread/INFO]: [MIEMBRO] SoyMax98_XP joined the game
+[00:24:07] [Server thread/INFO]: SoyMax98_XP[/127.37.218.146:38905] logged in with entity id 31023 at ([world]-1418.7378648412289, -40.0, 535.4148002308826)
+[00:24:17] [Server thread/INFO]: Gordified_ lost connection: Disconnected
+[00:24:17] [Server thread/INFO]: [MIEMBRO] Gordified_ left the game
+[00:24:24] [Server thread/INFO]: SoyMax98_XP lost connection: Disconnected
+[00:24:24] [Server thread/INFO]: [MIEMBRO] SoyMax98_XP left the game
+[00:25:25] [User Authenticator #6/INFO]: UUID of player Panconwevo is ffc21f00-b219-3e40-8bfa-bfd97fd7ae95
+[00:25:25] [Server thread/INFO]: [MIEMBRO] Panconwevo joined the game
+[00:25:25] [Server thread/INFO]: Panconwevo[/127.40.118.116:45211] logged in with entity id 32332 at ([world]-3528.071416399906, 81.0, -1178.957486590678)
+[00:25:35] [User Authenticator #6/INFO]: UUID of player oskr2804 is 40595c96-2524-3ff6-bf48-0f9754d3b040
+[00:25:35] [Server thread/INFO]: oskr2804 joined the game
+[00:25:35] [Server thread/INFO]: oskr2804[/127.174.177.49:47703] logged in with entity id 32777 at ([world]-154.5, 63.0, -255.5)
+[00:25:42] [Server thread/INFO]: KDpipe_MC issued server command: /team join Miembro oskr2804
+[00:25:42] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Added oskr2804 to team [Miembro]]
+[00:25:46] [Server thread/INFO]: KDpipe_MC issued server command: /tp oskr2804
+[00:25:46] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] oskr2804]
+[00:26:13] [Async Chat Thread - #12/INFO]: [Not Secure] <iZack_kun> si
+[00:26:14] [Async Chat Thread - #13/INFO]: [Not Secure] <iZack_kun> yo
+[00:26:17] [Server thread/INFO]: Panconwevo lost connection: Disconnected
+[00:26:17] [Server thread/INFO]: [MIEMBRO] Panconwevo left the game
+[00:26:31] [Server thread/INFO]: KDpipe_MC issued server command: /playsound minecraft:entity.creeper.primed ambient @a
+[00:26:31] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Played sound minecraft:entity.creeper.primed to 5 players]
+[00:27:00] [Server thread/INFO]: Villager EntityVillager['Leatherworker'/23654, uuid='50379d67-abd9-45c5-8f04-dcc0215c6114', l='ServerLevel[world]', x=-5478.80, y=70.50, z=-3714.50, cpos=[-343, -233], tl=10018, v=true] died, message: 'Leatherworker was slain by Zombie'
+[00:27:04] [Server thread/INFO]: [MIEMBRO] oskr2804 has made the advancement [Stone Age]
+[00:27:23] [Server thread/INFO]: KDpipe_MC issued server command: /tp iZack_kun
+[00:27:23] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] iZack_kun]
+[00:27:26] [Server thread/INFO]: KDpipe_MC issued server command: /tp Tula3000
+[00:27:26] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] Tula3000]
+[00:27:34] [User Authenticator #7/INFO]: UUID of player Gordified_ is b5755c2e-1455-34a7-bcd6-ab457279cf56
+[00:27:34] [Server thread/INFO]: [MIEMBRO] Gordified_ joined the game
+[00:27:34] [Server thread/INFO]: Gordified_[/127.77.165.83:35297] logged in with entity id 35072 at ([world]-169.51361071908272, 63.0, -258.0167214642396)
+[00:27:39] [Server thread/INFO]: KDpipe_MC issued server command: /tp Gordified_
+[00:27:39] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] Gordified_]
+[00:28:01] [Server thread/INFO]: [MIEMBRO] iZack_kun has made the advancement [Sweet Dreams]
+[00:28:12] [Server thread/INFO]: iZack_kun issued server command: /tell KDpipe_MC existe un comando para hacer que con solo 1 se haga de dia
+[00:28:16] [User Authenticator #7/INFO]: UUID of player Panconwevo is ffc21f00-b219-3e40-8bfa-bfd97fd7ae95
+[00:28:16] [Server thread/INFO]: [MIEMBRO] Panconwevo joined the game
+[00:28:16] [Server thread/INFO]: Panconwevo[/127.40.118.116:47193] logged in with entity id 35895 at ([world]-3500.5148313998247, 126.0, -1295.8266860008025)
+[00:28:25] [Server thread/INFO]: KDpipe_MC issued server command: /tell iZack_kun ya se
+[00:28:31] [Server thread/INFO]: iZack_kun issued server command: /tell KDpipe_MC pues ponlo
+[00:28:33] [Server thread/INFO]: Villager EntityVillager['Villager'/23559, uuid='1dd7b2de-07e9-4e56-83a4-1013b0ed0871', l='ServerLevel[world]', x=-5442.98, y=71.90, z=-3716.20, cpos=[-341, -233], tl=11938, v=true] died, message: 'Villager was slain by Zombie'
+[00:28:35] [Server thread/INFO]: KDpipe_MC issued server command: /gamerule playersSleepingPercentage 1
+[00:28:35] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Gamerule playersSleepingPercentage is now set to: 1]
+[00:28:36] [Async Chat Thread - #14/INFO]: [Not Secure] <KDpipe_MC> ya
+[00:28:40] [Server thread/INFO]: KDpipe_MC issued server command: /tp iZack_kun
+[00:28:40] [Server thread/INFO]: [[ADMIN] KDpipe_MC: Teleported [ADMIN] KDpipe_MC to [MIEMBRO] iZack_kun]
+[00:28:45] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> ZOMBIE DE MRD
+[00:28:48] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> ME MATO AL ALDEANO
+[00:28:48] [Server thread/INFO]: [MIEMBRO] oskr2804 has made the advancement [Monster Hunter]
+[00:29:04] [Async Chat Thread - #15/INFO]: [Not Secure] <iZack_kun> no
+[00:29:05] [Server thread/INFO]: [MIEMBRO] oskr2804 has made the advancement [Getting an Upgrade]
+[00:29:08] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> aqui nadie es su sirviente
+[00:29:24] [Async Chat Thread - #15/INFO]: [Not Secure] <iZack_kun> dile a tu pololo
+[00:29:52] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> DILE A TU JEBO
+[00:29:59] [Async Chat Thread - #15/INFO]: [Not Secure] <iZack_kun> XD
+[00:30:01] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> pipe
+[00:30:03] [Async Chat Thread - #15/INFO]: [Not Secure] <iZack_kun> tus muertos
+[00:30:18] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> yy pan
+[00:30:24] [Async Chat Thread - #15/INFO]: [Not Secure] <Tula3000> w
+[00:30:28] [Async Chat Thread - #14/INFO]: [Not Secure] <Tula3000> nah
+[00:30:46] [Async Chat Thread - #15/INFO]: [Not Secure] <iZack_kun> estoy cerca
+[00:30:54] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> no
+[00:30:55] [Async Chat Thread - #15/INFO]: [Not Secure] <iZack_kun> es
+[00:30:58] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> -5000
+[00:30:58] [User Authenticator #8/INFO]: UUID of player SoyMax98_XP is d980653e-3a24-392b-ade7-8dd3c54788d3
+[00:30:58] [Server thread/INFO]: [MIEMBRO] SoyMax98_XP joined the game
+[00:30:58] [Server thread/INFO]: SoyMax98_XP[/127.37.218.146:42665] logged in with entity id 40028 at ([world]-1418.7378648412289, -40.0, 535.4148002308826)
+[00:31:03] [Async Chat Thread - #15/INFO]: [Not Secure] <iZack_kun> esque pan ya andaba aca
+[00:31:04] [Async Chat Thread - #16/INFO]: [Not Secure] <iZack_kun> i
+[00:31:06] [Async Chat Thread - #14/INFO]: [Not Secure] <iZack_kun> si
+[00:31:08] [Async Chat Thread - #16/INFO]: [Not Secure] <iZack_kun> yo llegue en barco
+[00:31:16] [Server thread/INFO]: [MIEMBRO] Panconwevo has made the advancement [Acquire Hardware]
+[00:31:34] [Server thread/INFO]: SoyMax98_XP lost connection: Disconnected
+[00:31:34] [Server thread/INFO]: [MIEMBRO] SoyMax98_XP left the game
+[00:31:40] [Async Chat Thread - #16/INFO]: [Not Secure] <iZack_kun> no se puede craftear
+[00:32:18] [Server thread/INFO]: Gordified_ lost connection: Disconnected
+[00:32:18] [Server thread/INFO]: [MIEMBRO] Gordified_ left the game
+[00:33:21] [Async Chat Thread - #17/INFO]: [Not Secure] <iZack_kun> le puse pausa
+[00:33:23] [Async Chat Thread - #18/INFO]: [Not Secure] <iZack_kun> a mi serie
+[00:33:26] [Async Chat Thread - #17/INFO]: [Not Secure] <iZack_kun> sino no le doy atencion
+[00:33:28] [Async Chat Thread - #18/INFO]: [Not Secure] <iZack_kun> si
